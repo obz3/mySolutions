@@ -1,0 +1,8 @@
+Recursive algorithm
+Euclidian GCD formula.
+
+input:
+two integers a & b, space separated
+
+output:
+GCD(a, b)
