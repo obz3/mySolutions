@@ -1,0 +1,11 @@
+recursive algorithms
+
+using recursion to print subsets of a given set of int 
+
+input:
+only an int n.
+
+where the given set is {1, 2, 3, ..., ..., n-1, n}
+
+output:
+all the subsets.
