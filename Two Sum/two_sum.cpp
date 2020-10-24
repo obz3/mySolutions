@@ -22,7 +22,7 @@ int main(){
 	cin.tie(0);
 
     Solution soln;
-    vi nums = (vi){3, 2, 4};
+    vi nums({3, 2, 4});
     int target = 6;
     
     
