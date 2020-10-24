@@ -10,9 +10,9 @@ public:
     vi twoSum(vi& nums, int target) {
         for(vi::iterator i = nums.begin(); i != nums.end(); i++){
             vi::iterator res = find(i+1, nums.end(), target - *i);
-            if(res != nums.end()) 
+            if(res != nums.end())
             	return (vi){(int)distance(nums.begin(), i), (int)distance(nums.begin(), res)};
-		}
+        }
        	return (vi){};
     }
 };
