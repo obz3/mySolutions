@@ -21,14 +21,12 @@ int main(){
 	ios::sync_with_stdio(0);
 	cin.tie(0);
 
-    Solution soln;
-    vi nums({3, 2, 4});
-    int target = 6;
-    
-    
-
+	Solution soln;
+	vi nums({3, 2, 4});
+	int target = 6;
+	
 	vi result = soln.twoSum(nums, target);
-	if(!result.empty()) 
+	if(!result.empty())
 		cout << result[0] << ", " << result[1] << endl;
 	return 0;
 }
